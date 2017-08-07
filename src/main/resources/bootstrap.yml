@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: book-detail-svc
+    
+server:
+  port: 8090

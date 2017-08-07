@@ -1,0 +1,7 @@
+---
+applications:
+- name: book-detail-svc
+  memory: 512M
+  host: book-detail-svc
+  services:
+  - service-registry
