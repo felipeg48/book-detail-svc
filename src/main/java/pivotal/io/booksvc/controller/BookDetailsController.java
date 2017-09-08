@@ -30,7 +30,7 @@ public class BookDetailsController {
 	
 	@GetMapping("/{isbn}")
 	public BookDetails getBookDetails(@PathVariable String isbn) {
-		logger.info("Finding book for isbn: {}", isbn);
+		logger.info("Finding book details for isbn: {}", isbn);
 		return bookService.findFromPrimary(isbn);
 	}
 	

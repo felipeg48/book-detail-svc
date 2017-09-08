@@ -1,7 +1,9 @@
 ---
 applications:
 - name: book-detail-svc
-  memory: 512M
+  memory: 768M
   host: book-detail-svc
+  path: target/book-detail-svc-0.0.1-SNAPSHOT.jar
   services:
   - service-registry
+  - circuit-breaker-dashboard

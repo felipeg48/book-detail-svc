@@ -5,3 +5,8 @@ management:
 security:
   basic:
     enabled: false
+
+spring:
+  cloud:
+    services:
+      registrationMethod: direct
